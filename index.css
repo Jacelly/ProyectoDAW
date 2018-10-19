@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-image: url(http://infovideopub.com/wp-content/uploads/2016/09/fondo.jpg);
+  background-size: 100% 100%;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+}
+h2{
+  font-family:'Roboto', sans-serif; 
+  font-size: 0.8em;
+}
+div#free-image1{
+  background-image: url(http://www.javamobile.com.mx/files/foto-accesorios-genericos.png);
+}
+div#free-img1{
+  background-image: url(https://www.svgrepo.com/show/38468/audio-headset-of-auriculars-with-microphone-included.svg);
+}
+div#free-img2{
+  background-image: url(https://png.pngtree.com/svg/20170214/cable_1293490.png);
+}
+div#free-img3{
+  background-image: url(https://png2.kisspng.com/20180412/gtq/kisspng-drawing-iphone-telephone-smartphone-sketch-i-phone-5acf85e85ee8d9.7717950015235496723888.png);
+}
+div#free-img4{
+  background-image: url(http://www.comerciotech.com/179-large_default/estuches-new-case-anti-shock.jpg);
+}
+div#free-img5{
+  background-image: url(https://png.icons8.com/ios/1600/high-battery.png);
+}
+div#free-img6{
+  background-image: url(https://png.pngtree.com/svg/20170809/usb_cable_539044.png);
+}
+div#free-img7{
+  background-image: url(http://www.iconarchive.com/download/i96569/iconsmind/outline/Memory-Card.ico);
+}
+div#free-img8{
+  background-image: url(http://cdn.shopify.com/s/files/1/1835/5849/products/23f3e4929d9e17153e5392336e8ade8820160622-28599-4l2b2y_grande_bbffd6c9-e923-4afd-b444-bc115efabafc.png?v=1498166321);
+}
+div#free-img9{
+  background-image: url(https://www.shareicon.net/download/2015/12/29/695077_battery_512x512.png);
+}
+div#free-img10{
+  background-image: url(https://static.thenounproject.com/png/95836-200.png);
+}
+article{
+  border: 1px rgb(14, 13, 13) solid;
+  margin: auto;
+  width: 200px;
+  box-shadow: inset 0px 0x 10px  #f58e08; 
+  border-radius: 10px;
+  /*display:inline-block;*/
+  /*float: center;*/
+  transition: 2s;
+  /*padding: 15px;*/
+}
+div#articulos{
+  display: flex;
+  /*float:center;*/
+
+  justify-content: center;
+  align-items: center;
+
+}
+article:hover{
+  background-color: rgb(211, 196, 189);
+ /* width: 100px;*/
+}
+div[id^="free-image"]{
+    margin: auto;
+    margin-top: 200px;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    width: auto;
+    height: 300px;
+}
+div[id^="free-img"]{
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+}
+div#general{
+  margin:  auto;
+  margin-top: 200px;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color:rgb(255, 255, 255);
+}
+div#letra{
+  font-size: 20px;
+}
+div#categorias{
+  margin:opx auto;
+  /*display: block;*/
+  background-size: 100% 100%;
+  background-color:rgb(241, 234, 231);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+h2{
+  font-size: 18px;
+}
