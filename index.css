@@ -194,6 +194,15 @@ div#free-imgR2{
 div#free-imgR3{
   background-image: url(https://cdn1.iconfinder.com/data/icons/social-signature/512/Instagram_Color-512.png);
 }
+img[id^="background"]{
+    margin: auto;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 600px;
+}
 .ir-arriba{
   display: inline-block;
   padding: 20px;
