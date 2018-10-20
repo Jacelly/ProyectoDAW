@@ -47,26 +47,27 @@ div#free-img9{
 div#free-img10{
   background-image: url(https://static.thenounproject.com/png/95836-200.png);
 }
-article{
+#art{
   border: 1px rgb(14, 13, 13) solid;
   margin: auto;
   width: 200px;
   box-shadow: inset 0px 0x 10px  #f58e08; 
   border-radius: 10px;
-  /*display:inline-block;*/
+  display:inline-block;
   /*float: center;*/
   transition: 2s;
   /*padding: 15px;*/
+  
 }
 div#articulos{
-  display: flex;
+  /*display: flex;*/
   /*float:center;*/
-
+  margin: auto;
   justify-content: center;
   align-items: center;
 
 }
-article:hover{
+#art:hover{
   background-color: rgb(211, 196, 189);
  /* width: 100px;*/
 }
@@ -80,16 +81,6 @@ div[id^="free-image"]{
     width: auto;
     height: 300px;
 }
-img[id^="background"]{
-    margin: auto;
-    
-    background-position: center;
-    background-repeat: no-repeat;
-    display: block;
-    width: 100%;
-    height: 600px;
-}
-
 div[id^="free-img"]{
     margin: auto;
     background-size: contain;
@@ -100,7 +91,7 @@ div[id^="free-img"]{
 }
 div#general{
   margin:  auto;
-  margin-top: 200px;
+  /*margin-top: 5px;*/
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -108,6 +99,7 @@ div#general{
 }
 div#letra{
   font-size: 20px;
+  text-align: center;
 }
 div#categorias{
   margin:opx auto;
@@ -117,6 +109,99 @@ div#categorias{
   background-position: center;
   background-repeat: no-repeat;
 }
-h2{
+h3{
   font-size: 18px;
+  text-align: center;
+}
+h2{
+  font-size: 30px;;
+}
+/*ESTILOS PARA HEADER*/
+div#imgFooter1{
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  background-attachment: fixed;
+  background-color: white;
+}
+div#footerI{
+  margin:opx auto;
+  margin-top: 500px;
+  background-size: 100% 100%;
+  background-color:rgb(46, 158, 64);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+h4{
+  font-size: 14px;
+  font: bold;
+  text-align: center;
+  
+}
+h5{
+  font-size: 10px;
+  text-align: center;
+}
+div[id^="free-imgf"]{
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+div#free-imgf1{
+  background-image: url(https://image.flaticon.com/icons/png/512/268/268977.png);
+}
+div#free-imgf2{
+  background-image: url(https://image.flaticon.com/icons/svg/28/28768.svg);
+}
+div#free-imgf3{
+  background-image: url(https://icon-icons.com/icons2/1402/PNG/512/hanshake_96905.png);
+}
+#fo1{
+  border: 1px rgb(14, 13, 13) solid;
+  margin: auto;
+  width: 200px;
+  box-shadow: inset 0px 0x 10px  #f58e08; 
+  border-radius: 10px;
+  display:inline-block;
+  /*float: center;*/
+  transition: 2s;
+  /*padding: 15px;*/
+  justify-content: center;
+  align-items: center;
+}
+#fo1:hover{
+  background-color: rgb(235, 87, 18);
+ /* width: 100px;*/
+}
+div[id^="free-imgR"]{
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 50px;
+  width: 100px;
+  height: 100px;
+}
+div#free-imgR1{
+  background-image: url(https://images.sftcdn.net/images/t_optimized,f_auto/p/8a6eafba-96d2-11e6-b334-00163ec9f5fa/77332936/facebook-logo.png);
+}
+div#free-imgR2{
+  background-image: url(https://vignette.wikia.nocookie.net/es.starwars/images/9/92/Twitter_Icon.png/revision/latest?cb=20151201204526);
+}
+div#free-imgR3{
+  background-image: url(https://cdn1.iconfinder.com/data/icons/social-signature/512/Instagram_Color-512.png);
+}
+.ir-arriba{
+  display: inline-block;
+  padding: 20px;
+  color:  orange;
+  background: aqua;
+  font-size: 30px;
+  cursor: pointer;
+  position: fixed;
+  bottom:20px;
+  right:20px;
 }
