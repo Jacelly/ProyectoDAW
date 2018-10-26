@@ -124,14 +124,14 @@ div#imgFooter1{
   background-attachment: fixed;
   background-color: white;
 }
-div#footerI{
+/*div#footerI{
   margin:opx auto;
   margin-top: 500px;
   background-size: 100% 100%;
   background-color:rgb(46, 158, 64);
   background-position: center;
   background-repeat: no-repeat;
-}
+}*/
 h4{
   font-size: 14px;
   font: bold;
