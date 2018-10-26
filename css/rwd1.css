@@ -16,16 +16,30 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+
 [class*="col-"] {
     float: left;
     padding: 0.2%;
     margin: 0;
-    border: 1px solid red;
-    background-color: rgb(243, 163, 14);
+    border: 1px solid rgb(248, 40, 3);
+    /*text-align: center;*/
+    background-color: rgb(212, 194, 88);
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+#audifono:hover{
+  background-color: rgb(211, 196, 189);
 }
 [class*="formato-"] {
     text-align: center;
     background-color: rgb(143, 132, 132);
     justify-content:center;
     
+}
+[class*="fondoColor-"] {
+    text-align: left;
+    background-color: rgb(233, 132, 65);
+
 }

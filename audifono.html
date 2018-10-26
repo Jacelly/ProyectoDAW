@@ -21,7 +21,6 @@
 </head>
 <body>
 	<header></header>
-	<nav>
      <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo empresa" style="width:50px; height:50px">Detodo</a>
@@ -48,7 +47,66 @@
         </div>
       </div> 
   </nav>
-  <section  id="productos" class="col-12 col-sm-12 fondoColor-1">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12"></div>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Principal</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Audifonos</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+      <h2>Los resultados de la busuqueda son:</h2> 
+    </div>
+    <div class="row">
+      <div class="col-*-*"></div>
+        <aside id="ArticuloFiltro" class="breadcrumb">
+          <div class="container">
+            <h2>Audifonos</h2>
+            <p>Ordenar publicacion:</p>
+            <div class="row">
+              <div class="col-*-*">                                      
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Categoria
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">MAS VISTO</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">MAS VOTADO</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">MAS COMPRADOR</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">MAS BARATO</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-*-*"> 
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Estado
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">NUEVO</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">USADO</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <p>Precio:</p>
+            <div class="row">
+              <div class="col-*-*"> 
+                <input class="form-control" id="myInput" type="text" placeholder="minimo">
+              </div>
+              <div class="col-*-*">
+                <input class="form-control" id="myInput" type="text" placeholder="maximo">
+              </div>
+                <button class="btn">Ir</button>
+              </div>
+          </div>
+        </aside>
+      </div>
+      <div class="col-*-*"></div>
+    <section  id="productos" class="col-12 col-sm-12 fondoColor-1">
       <header>
           <h2>AUDIFONOS DISPONIBLES</h2>
           <div id="letra">
@@ -187,7 +245,7 @@
           </figure>
       </article>                
   </section>
-  <aside id="recientes"></aside>
+  
   <footer class="col-12 formato-1 col-sm-12">
     <div id="footerI">
       <article id="fo1">
