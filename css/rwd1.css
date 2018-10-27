@@ -29,7 +29,7 @@
     align-items: center;
     
 }
-#audifono:hover{
+#prod:hover{
   background-color: rgb(211, 196, 189);
 }
 [class*="formato-"] {

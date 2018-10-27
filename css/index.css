@@ -132,6 +132,11 @@ div#imgFooter1{
   background-position: center;
   background-repeat: no-repeat;
 }*/
+#footer-1{
+    text-align: center;
+    background-color: rgb(143, 132, 132);
+    justify-content:center;
+}
 h4{
   font-size: 14px;
   font: bold;
