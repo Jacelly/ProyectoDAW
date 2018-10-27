@@ -20,8 +20,7 @@
     <link rel="stylesheet" type=text/css href="css/estilo.css"> 
 </head>
 <body>
-	<header></header>
-     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo empresa" style="width:50px; height:50px">Detodo</a>
         <form>
@@ -49,7 +48,7 @@
   </nav>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12"></div>
+      <div class="col-12">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Principal</a></li>
@@ -59,16 +58,26 @@
       </div>
     </div>
     <div class="row">
-      <h2>Los resultados de la busuqueda son:</h2> 
+      <div class="col-12">
+        <h2>Los resultados de la busqueda son:</h2> 
+      </div>
     </div>
-    <div class="row">
-      <div class="col-*-*"></div>
+    <div class="row" >
+      <div class="col-3">
         <aside id="ArticuloFiltro" class="breadcrumb">
-          <div class="container">
-            <h2>Audifonos</h2>
-            <p>Ordenar publicacion:</p>
+          <div class="container-fluid">
             <div class="row">
-              <div class="col-*-*">                                      
+              <div class="col-12">
+                <h2>Audifonos</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <p>Ordenar publicacion:</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">                                      
                 <div class="dropdown">
                   <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Categoria
                   <span class="caret"></span></button>
@@ -80,7 +89,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="col-*-*"> 
+              <div class="col-6"> 
                 <div class="dropdown">
                   <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Estado
                   <span class="caret"></span></button>
@@ -92,160 +101,167 @@
                 </div>
               </div>
             </div>
-            <p>Precio:</p>
             <div class="row">
-              <div class="col-*-*"> 
+              <div class="col-12">
+                <p>Precio:</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4"> 
                 <input class="form-control" id="myInput" type="text" placeholder="minimo">
               </div>
-              <div class="col-*-*">
+              <div class="col-4">
                 <input class="form-control" id="myInput" type="text" placeholder="maximo">
               </div>
+              <div class="col-4">
                 <button class="btn">Ir</button>
               </div>
+            </div>
           </div>
         </aside>
       </div>
-      <div class="col-*-*"></div>
-    <section  id="productos" class="col-12 col-sm-12 fondoColor-1">
-      <header>
-          <h2>AUDIFONOS DISPONIBLES</h2>
-          <div id="letra">
-          <p> Todo lo que necesitas para tu smartphone: micas,auriculares,protectores.....!Producto 3B (bueno,bonito y barato)!</p>
-      </div>  
-      </header>
-      <article id="audifono" class="col-6 col-sm-6">
-          <figure class="col-12 col-sm-12">
-              <img   class="col-2 col-sm-2" src="https://via.placeholder.com/100x100" alt="">
-              <header  id="edcabecera">
-              <h3>Audifonos I7s Tws Bluetooth Manos Libres Con Base De Carga</h3>
-              <p>
-              90 vendidos - audifonos - Guayas - Guayaquil
-              </p>
-              </header>
-              <figcaption> U$S 15</figcaption> 
-              <a href="">Ir</a>
-          </figure>
-      </article>
-      <article id="audifono" class="col-6 col-sm-6">
-          <figure class="col-12 col-sm-12">
-              <img  class="col-2 col-sm-2" src="https://via.placeholder.com/100x100" alt="">
-              <header id="edcabecera">
-              <h3>Mini Auricular Audífono Bluetooth Llamadas Música Espia</h3>
-              <p>
-              15 vendidos - audifonos - Guayas - Guayaquil
-              </p>
-              </header>    
-              <figcaption>U$S 8</figcaption> 
-              <a href="">Ir</a>
-          </figure>
-      </article>  
-      <article id="audifono" class="col-6 col-sm-6">
-          <figure class="col-12 col-sm-12">
-              <img class="col-2 col-sm-2" src="https://via.placeholder.com/100x100" alt="">
-              <header id="edcabecera">
-              <h3>Manos Libres Bluetooth Airpods Recargables Universales</h3>
-              <p>
-              7 vendidos - audifonos - Guayas - Guayaquil
-              </p>
-              </header>
-              <figcaption>U$S 16</figcaption> 
-              <a href="">Ir</a>
-          </figure>
-         
-      </article>
-      <article id="audifono" class="col-6 col-sm-6">
-          <figure class="col-12 col-sm-12">
-              <img class="col-2 col-sm-2" src="https://via.placeholder.com/100x100" alt="">
-              <header id="edcabecera">
-              <h3>Audífono Sony Con Cable</h3>
-              <p>
-              20 vendidos - audifonos - Guayas - Guayaquil
-              </p>
-              </header>
-              <figcaption>U$S 12</figcaption> 
-              <a href="">Ir</a>
-          </figure>
-      </article>  
-      <article id="audifono" class="col-6 col-sm-6">
-          <figure class="col-12 col-sm-12">
-              <img class="col-2 col-sm-2" src="https://via.placeholder.com/100x100" alt="">
-              <header id="edcabecera">
-              <h3>Audifonos para iPhone 7</h3>
-              <p>
-              19 vendidos - audifonos - Guayas - Guayaquil
-              </p>
-              </header>
-              <figcaption>U$S 25</figcaption> 
-              <a href="">Ir</a>
-          </figure>
-      </article>  
-      <article id="audifono" class="col-6 col-sm-6">
-          <figure class="col-12 col-sm-12">
-              <img class="col-2 col-sm-2" src="https://via.placeholder.com/100x100" alt="">
-              <header id="edcabecera">
-              <h3>Audifonos Bluetooth Coello Manos Libres Samsung Sony Iphone</h3>
-              <p>
-              7 vendidos - audifonos - Guayas - Guayaquil
-              </p>
-              </header>
-              <figcaption>U$S 9</figcaption> 
-              <a href="">Ir</a>
-          </figure>
-      </article>  
-      <article id="audifono" class="col-6 col-sm-6">
-          <figure class="col-12 col-sm-12">
-              <img class="col-2 col-sm-2" src="https://via.placeholder.com/100x100" alt="">
-              <header id="edcabecera">
-              <h3>Audifonos Samsung Bluetooth Manos Libres Llamadas Musica Hd</h3>
-              <p>
-              45 vendidos - audifonos - Guayas - Guayaquil
-              </p>
-              </header>
-              <figcaption>U$S 12</figcaption> 
-              <a href="">Ir</a>
-          </figure>
-      </article>  
-      <article id="audifono" class="col-6 col-sm-6">
-          <figure class="col-12 col-sm-12">
-              <img class="col-2 col-sm-2" src="https://via.placeholder.com/100x100" alt="">
-               <header id="edcabecera">
-              <h3>Audifonos Apple Earpods Originales Iphone 4/5/5s/6/6s </h3>
-              <p>
-              39 vendidos - audifonos - Guayas - Guayaquil
-              </p>
-              </header>
-              <figcaption>U$S 18</figcaption> 
-              <a href="">Ir</a>
-          </figure>
-      </article>  
-      <article id="audifono" class="col-6 col-sm-6">
-          <figure class="col-12 col-sm-12">
-              <img  class="col-2 col-sm-2" src="https://via.placeholder.com/100x100" alt="">
-              <header id="edcabecera">
-              <h3>Original Audifono Huawei Con Microfono </h3>
-              <p>
-              0 vendidos - audifonos - Guayas - Guayaquil
-              </p>
-              </header>
-              <figcaption>U$S 15</figcaption> 
-               <a href="">Ir</a>
-          </figure>
-      </article>  
-      <article id="audifono" class="col-6 col-sm-6">
-          <figure class="col-12 col-sm-12">
-              <img class="col-2 col-sm-2" src="https://via.placeholder.com/100x100" alt="">
-              <header id="edcabecera">
-              <h3>Audífonos Originales Xiaomi Hybrid Pro Hd In-ear Grafeno</h3>
-              <p>
-              42 vendidos - audifonos - Guayas - Guayaquil
-              </p>
-              </header>
-              <figcaption>U$S 51</figcaption> 
-              <a href="">Ir</a>
-          </figure>
-      </article>                
-  </section>
-  
+      <div class="col-9">
+        <section  id="productos" class="col-12 col-sm-12 fondoColor-1">
+          <header>
+              <h2>AUDIFONOS DISPONIBLES</h2>
+              <div id="letra">
+                <p> Todo lo que necesitas para tu smartphone: micas,auriculares,protectores.....!Producto 3B (bueno,bonito y barato)!</p>
+              </div>  
+          </header>
+          <article id="audifono" class="col-6 col-sm-6">
+              <figure class="col-12 col-sm-12">
+                  <img   class="col-2 col-sm-2" src="https://via.placeholder.com/100x100" alt="">
+                  <header  id="edcabecera">
+                  <h3>Audifonos I7s Tws Bluetooth Manos Libres Con Base De Carga</h3>
+                  <p>
+                  90 vendidos - audifonos - Guayas - Guayaquil
+                  </p>
+                  </header>
+                  <figcaption> U$S 15</figcaption> 
+                  <a href="">Ir</a>
+              </figure>
+          </article>
+          <article id="audifono" class="col-6 col-sm-6">
+              <figure class="col-12 col-sm-12">
+                  <img  class="col-2 col-sm-2" src="https://via.placeholder.com/100x100" alt="">
+                  <header id="edcabecera">
+                  <h3>Mini Auricular Audífono Bluetooth Llamadas Música Espia</h3>
+                  <p>
+                  15 vendidos - audifonos - Guayas - Guayaquil
+                  </p>
+                  </header>    
+                  <figcaption>U$S 8</figcaption> 
+                  <a href="">Ir</a>
+              </figure>
+          </article>  
+          <article id="audifono" class="col-6 col-sm-6">
+              <figure class="col-12 col-sm-12">
+                  <img class="col-2 col-sm-2" src="https://via.placeholder.com/100x100" alt="">
+                  <header id="edcabecera">
+                  <h3>Manos Libres Bluetooth Airpods Recargables Universales</h3>
+                  <p>
+                  7 vendidos - audifonos - Guayas - Guayaquil
+                  </p>
+                  </header>
+                  <figcaption>U$S 16</figcaption> 
+                  <a href="">Ir</a>
+              </figure>
+             
+          </article>
+          <article id="audifono" class="col-6 col-sm-6">
+              <figure class="col-12 col-sm-12">
+                  <img class="col-2 col-sm-2" src="https://via.placeholder.com/100x100" alt="">
+                  <header id="edcabecera">
+                  <h3>Audífono Sony Con Cable</h3>
+                  <p>
+                  20 vendidos - audifonos - Guayas - Guayaquil
+                  </p>
+                  </header>
+                  <figcaption>U$S 12</figcaption> 
+                  <a href="">Ir</a>
+              </figure>
+          </article>  
+          <article id="audifono" class="col-6 col-sm-6">
+              <figure class="col-12 col-sm-12">
+                  <img class="col-2 col-sm-2" src="https://via.placeholder.com/100x100" alt="">
+                  <header id="edcabecera">
+                  <h3>Audifonos para iPhone 7</h3>
+                  <p>
+                  19 vendidos - audifonos - Guayas - Guayaquil
+                  </p>
+                  </header>
+                  <figcaption>U$S 25</figcaption> 
+                  <a href="">Ir</a>
+              </figure>
+          </article>  
+          <article id="audifono" class="col-6 col-sm-6">
+              <figure class="col-12 col-sm-12">
+                  <img class="col-2 col-sm-2" src="https://via.placeholder.com/100x100" alt="">
+                  <header id="edcabecera">
+                  <h3>Audifonos Bluetooth Coello Manos Libres Samsung Sony Iphone</h3>
+                  <p>
+                  7 vendidos - audifonos - Guayas - Guayaquil
+                  </p>
+                  </header>
+                  <figcaption>U$S 9</figcaption> 
+                  <a href="">Ir</a>
+              </figure>
+          </article>  
+          <article id="audifono" class="col-6 col-sm-6">
+              <figure class="col-12 col-sm-12">
+                  <img class="col-2 col-sm-2" src="https://via.placeholder.com/100x100" alt="">
+                  <header id="edcabecera">
+                  <h3>Audifonos Samsung Bluetooth Manos Libres Llamadas Musica Hd</h3>
+                  <p>
+                  45 vendidos - audifonos - Guayas - Guayaquil
+                  </p>
+                  </header>
+                  <figcaption>U$S 12</figcaption> 
+                  <a href="">Ir</a>
+              </figure>
+          </article>  
+          <article id="audifono" class="col-6 col-sm-6">
+              <figure class="col-12 col-sm-12">
+                  <img class="col-2 col-sm-2" src="https://via.placeholder.com/100x100" alt="">
+                   <header id="edcabecera">
+                  <h3>Audifonos Apple Earpods Originales Iphone 4/5/5s/6/6s </h3>
+                  <p>
+                  39 vendidos - audifonos - Guayas - Guayaquil
+                  </p>
+                  </header>
+                  <figcaption>U$S 18</figcaption> 
+                  <a href="">Ir</a>
+              </figure>
+          </article>  
+          <article id="audifono" class="col-6 col-sm-6">
+              <figure class="col-12 col-sm-12">
+                  <img  class="col-2 col-sm-2" src="https://via.placeholder.com/100x100" alt="">
+                  <header id="edcabecera">
+                  <h3>Original Audifono Huawei Con Microfono </h3>
+                  <p>
+                  0 vendidos - audifonos - Guayas - Guayaquil
+                  </p>
+                  </header>
+                  <figcaption>U$S 15</figcaption> 
+                   <a href="">Ir</a>
+              </figure>
+          </article>  
+          <article id="audifono" class="col-6 col-sm-6">
+              <figure class="col-12 col-sm-12">
+                  <img class="col-2 col-sm-2" src="https://via.placeholder.com/100x100" alt="">
+                  <header id="edcabecera">
+                  <h3>Audífonos Originales Xiaomi Hybrid Pro Hd In-ear Grafeno</h3>
+                  <p>
+                  42 vendidos - audifonos - Guayas - Guayaquil
+                  </p>
+                  </header>
+                  <figcaption>U$S 51</figcaption> 
+                  <a href="">Ir</a>
+              </figure>
+          </article>                
+        </section>
+      </div>
+    </div>
   <footer class="col-12 formato-1 col-sm-12">
     <div id="footerI">
       <article id="fo1">
