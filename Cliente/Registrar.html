@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+    <title>Detodo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <meta name="autor" content="Edward Cruz">
+    <meta name="keywords" content="productos, accesorios, celular, venta">
+    <meta name="description" content="venta de accesorios para celulares">
+    <meta name="viewport" content="width=device-width">
+    <link href="../css/Registrar.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="login-box">
+      <img src="../images/login.png" class="avatar">
+        <h2>Registrese aqui</h2>
+        <form>
+          <div class="inputBox">
+            <input type="text" name="username" required>
+            <label>Nombre de Usuario</label>
+          </div>
+          <div class="inputBox">
+            <input type="email" name="email" required>
+            <label>E-mail</label>
+          </div>
+          <div class="inputBox">
+            <input type="text" name="password" required>
+            <label>Contraseña</label>
+          </div>
+          <div class="inputBox">
+            <input type="text" name="password"  required>
+            <label>Validar Contraseña</label>
+          </div>
+          <div class="inputBox">
+            <input type="date" name="bday" required>
+            <label >Fecha de nacimiento</label>
+          </div>
+          <div class="Box">
+            <input type="radio" name="gender" id="male"
+     name="contact" value="male" checked>
+            <label for="female">Hombre</label>
+            <input type="radio" name="gender" id="female"
+     name="contact" value="female">
+            <label for="female">Mujer</label>
+            <input type="radio" name="gender" id="otro"
+     name="contact" value="otro">
+            <label for="otro">Otro</label>
+          </div>
+          <br><br><br>
+          <div class="Box">
+            <input type="checkbox" name="contrato" id="acepto" value="acepto">
+            <label for="acepto">He leido el contrato y estoy de acuerdo...</label>
+          </div>
+
+
+          <input type="submit" name="submit" value="Registrarse">
+          <input type="button" onclick="location.href='../index.html';"  value="volver"/>
+          
+          
+        </form>
+    </div>
+</body>
+
+</html>
