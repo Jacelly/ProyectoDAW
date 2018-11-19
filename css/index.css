@@ -167,7 +167,7 @@ div#free-imgf3{
 #fo1{
   border: 1px rgb(14, 13, 13) solid;
   margin: auto;
-  width: 200px;
+  width: 200px;;
   box-shadow: inset 0px 0x 10px  #f58e08; 
   border-radius: 10px;
   display:inline-block;
@@ -178,6 +178,25 @@ div#free-imgf3{
   align-items: center;
 }
 #fo1:hover{
+  background-color: rgb(235, 87, 18);
+ /* width: 100px;*/
+}
+#fo2{
+  border: 1px rgb(14, 13, 13) solid;
+  margin: auto;
+  width: 200px;
+  box-shadow: inset 0px 0x 10px  #f58e08; 
+  border-radius: 10px;
+  display:inline-block;
+  /*float: center;*/
+  transition: 2s;
+  /*padding: 15px;*/
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-block-end: 20px;
+}
+#fo2:hover{
   background-color: rgb(235, 87, 18);
  /* width: 100px;*/
 }
