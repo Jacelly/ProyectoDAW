@@ -238,3 +238,16 @@ img[id^="background"]{
   bottom:20px;
   right:20px;
 }
+
+div#chatP{
+  background-color: aqua;
+  margin: 0px;
+  padding: 0px;
+}
+
+div#envmsg{
+  border: 1px rgb(14, 13, 13) solid;
+  margin: 0px;
+  padding: 0px;
+  background-color: orange;
+}
