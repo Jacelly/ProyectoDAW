@@ -1,5 +1,6 @@
-function isValidEmail(mail) { 
-  return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/.test(mail); 
+function isValidBothPassword(str1,str2) { 
+  var n = str1.localeCompare(str2);
+  return n; 
 }
 
 $(document).ready(function(){
@@ -7,10 +8,11 @@ $(document).ready(function(){
 
   $("input[name='submit']").click(function(e){
 
-    var email = $("input[name='email']").val();
+    var password = $("input[name='password']").val();
+    var password1 = $("input[name='password1']").val();
     
-    if(!isValidEmail(email)) {
-      alert("hols");
+    if(isValidBothPassword(email)!=0) {
+      alert("Las contraseñas no coinciden");
       return false;
     } 
 
