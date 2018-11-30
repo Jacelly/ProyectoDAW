@@ -25,10 +25,10 @@ body{
   color: #fff;
   text-align: center;
 }
-#login-box #inputBox{
+#login-box div[id^="inputBox"]{
   position: relative;
 }
-#login-box #inputBox input{
+#login-box div[id^="inputBox"] input{
   width: 100%;
   padding:  10px 0;
   font-size: 16px;
@@ -40,17 +40,17 @@ body{
   background: transparent; 
 }
 
-#login-box #inputBox label{
+#login-box div[id^="inputBox"] label{
   top: 0;
   left: 0;
   padding: 10px 0;
   font-size: 16px;
   color: #fff;  
 }
-#login-box #Box label{
+#login-box div[id^="Box"] label{
 
   color: #fff;
-}#login-box #inputBox #enviar_btn_div input#submit-btn,#login-box #inputBox #volver_btn_div input#boton_volver{
+}#login-box div[id^="inputBox"] #enviar_btn_div input#submit-btn,#login-box div[id^="inputBox"] #volver_btn_div input#boton_volver{
   background: transparent;
   border: none;
   outline: none;
