@@ -1,0 +1,58 @@
+[
+  {
+    "Estuche": [
+      {
+        "titulo": "Audifonos I7s Tws Bluetooth Manos Libres Con Base De Carga",
+        "Precio": 20,
+        "vendidos": 10
+      }
+    ],
+    "Audifonos":[
+      {
+        "titulo": "Audifonos I7s Tws Bluetooth Manos Libres Con Base De Carga",
+        "Precio": 20,
+        "vendidos": 10
+      },
+      {
+        "titulo": "Mini Auricular Audífono Bluetooth Llamadas Música Espia",
+        "Precio": 10,
+        "vendidos": 20
+      },
+      {
+        "titulo": "Audifono Samsung",
+        "Precio": 20,
+        "vendidos": 10
+      },
+      {
+        "titulo": "Manos Libres Bluetooth Airpods Recargables Universales",
+        "Precio": 16,
+        "vendidos": 7
+      },
+      {
+        "titulo": "Audífono Sony Con Cable",
+        "Precio": 12,
+        "vendidos": 20
+      },
+      {
+        "titulo": "Audifonos para iPhone 7",
+        "Precio": 19,
+        "vendidos": 25
+      },
+      {
+        "titulo": "Audifonos Bluetooth Coello Manos Libres Samsung Sony Iphone",
+        "Precio": 7,
+        "vendidos": 9
+      },      
+      {
+        "titulo": "Audifonos Samsung Bluetooth Manos Libres Llamadas Musica Hd",
+        "Precio": 12,
+        "vendidos": 45
+      },
+      {
+        "titulo": "Audifonos Apple Earpods Originales Iphone 4/5/5s/6/6s",
+        "Precio": 18,
+        "vendidos": 39
+      }
+    ]
+  }
+]
