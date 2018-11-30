@@ -48,7 +48,7 @@ function addNew(titulo, vendido, precio) {
     p.appendTo(div);
     p1.appendTo(div);
     articulo.appendTo( "#articulos" );
-    hr.appendTo( "#articulos" );
+    hr.appendTo(articulo);
 }
 
 
