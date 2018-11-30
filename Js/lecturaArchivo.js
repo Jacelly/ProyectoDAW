@@ -1,6 +1,6 @@
 function addNew(titulo, vendido, precio) {
    var articulo = $("<article/>", {
-      "class":"col-12 col-12 col-sm-12"
+      "class":"articulo col-12 col-12 col-sm-12"
     });
 
     var figure = $("<figure/>", {
@@ -18,7 +18,6 @@ function addNew(titulo, vendido, precio) {
 
     var div = $( "<div/>", {
       "class": "col-12 col-sm-12",
-      "id": "articulo"
     });
 
     var a = $( "<a/>", {
@@ -37,6 +36,9 @@ function addNew(titulo, vendido, precio) {
       html: "U$S " + precio
     });
 
+    var hr = $( "<hr/>", {
+    });
+
     figure.appendTo(articulo)
     img.appendTo(figure);
     header.appendTo(figure);
@@ -45,8 +47,8 @@ function addNew(titulo, vendido, precio) {
     h3.appendTo(a);
     p.appendTo(div);
     p1.appendTo(div);
-
     articulo.appendTo( "#articulos" );
+    hr.appendTo( "#articulos" );
 }
 
 
@@ -76,8 +78,8 @@ $(document).ready(function(){
     
     if(texto.length != 0) {
       
-      var noticias = $('#articulo');
-      $('#articulo').filter(function(index){
+      var noticias = $('#articulos .articulo');
+      $('#articulos .articulo').filter(function(index){
         
         $(this).show();
         
@@ -89,7 +91,7 @@ $(document).ready(function(){
       });
 
     } else {
-      $('#articulo').each(function(){
+      $('#articulos .articulo').each(function(){
         $(this).show();
       });
     }
