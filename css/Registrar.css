@@ -50,8 +50,7 @@ body{
 #login-box #Box label{
 
   color: #fff;
-}
-#login-box input[type="submit"]{
+}#login-box #inputBox #enviar_btn_div input#submit-btn,#login-box #inputBox #volver_btn_div input#boton_volver{
   background: transparent;
   border: none;
   outline: none;
