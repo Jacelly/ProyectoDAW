@@ -12,18 +12,19 @@ $(document).ready(function(){
         var password = $('input#myInput').val();
         var error =false;
         //alert(username);
- 	$.getJSON("../DB/user.json", function(result){
-                data = $.parseJSON(data);
+ 	$.getJSON("../base_datos/user.json", function(result){
 		$.each(result, function(i, field){
                     alert(field.usuario);
                     if( username == field.usuario && password == field.password){
                         alert("Login success");
                         error=true;
                     }
+                });
+
                     if(error == false){
                         alert("ops, error user or password");
                     }
-                });
-            });       
+            });
+        return false;       
     });
 });
