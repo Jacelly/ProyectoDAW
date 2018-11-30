@@ -1,13 +1,23 @@
-[{
+[	
+	{
 		"usuario": "Admin",
-		"password": "Admin"
+		"email":"ejemplo@hotmil.com",
+		"password":"Admin",
+		"birdday":"1998-01-01",
+		"gender":"male"
 	},
 	{
 		"usuario": "etcruz",
-		"password": "etcruz"
+		"email":"ejemplo1@hotmil.com",
+		"password":"etcruz",
+		"birdday":"1996-04-27",
+		"gender":"male"
 	},
 	{
 		"usuario": "jocruz",
-		"password": "jocruz"
+		"email":"ejemplo3@hotmil.com",
+		"password":"jocruz",
+		"birdday":"1986-10-15",
+		"gender":"male"
 	}
 ]
