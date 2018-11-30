@@ -47,7 +47,7 @@ div#free-img9{
 div#free-img10{
   background-image: url(https://static.thenounproject.com/png/95836-200.png);
 }
-#art{
+[class*="art-"]{
   border: 1px rgb(14, 13, 13) solid;
   margin: auto;
   width: 200px;
@@ -59,6 +59,10 @@ div#free-img10{
   /*padding: 15px;*/
   
 }
+[class*="art-"]:hover{
+  background-color: rgb(211, 196, 189);
+ /* width: 100px;*/
+}
 div#articulos{
   /*display: flex;*/
   /*float:center;*/
@@ -67,13 +71,10 @@ div#articulos{
   align-items: center;
 
 }
-#art:hover{
-  background-color: rgb(211, 196, 189);
- /* width: 100px;*/
-}
+
 div[id^="free-image"]{
     margin: auto;
-    margin-top: 200px;
+    /*margin-top: 200px;*/
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -193,8 +194,8 @@ div#free-imgf3{
   /*padding: 15px;*/
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
-  margin-block-end: 20px;
+  /*margin-top: 10px;
+  margin-block-end: 20px;*/
 }
 [class*="fo-2"]:hover{
   background-color: rgb(235, 87, 18);
