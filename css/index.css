@@ -4,7 +4,7 @@
   padding: 0px;
 }
 body{
-  background-image: url(http://infovideopub.com/wp-content/uploads/2016/09/fondo.jpg);
+  background-image: url(http://www.solofondosdepantalla.net/fondos-de-pantalla/Abstractos/Fondo-de-pantalla-Abstracto-86.jpg);
   background-size: 100% 100%;
 }
 h1{
@@ -162,9 +162,9 @@ div#free-imgf2{
   background-image: url(https://image.flaticon.com/icons/svg/28/28768.svg);
 }
 div#free-imgf3{
-  background-image: url(https://icon-icons.com/icons2/1402/PNG/512/hanshake_96905.png);
+  background-image: url(https://image.flaticon.com/icons/svg/17/17800.svg);
 }
-#fo1{
+[class*="fo-1"]{
   border: 1px rgb(14, 13, 13) solid;
   margin: auto;
   width: 200px;;
@@ -177,11 +177,11 @@ div#free-imgf3{
   justify-content: center;
   align-items: center;
 }
-#fo1:hover{
+[class*="fo-1"]:hover{
   background-color: rgb(235, 87, 18);
  /* width: 100px;*/
 }
-#fo2{
+[class*="fo-2"]{
   border: 1px rgb(14, 13, 13) solid;
   margin: auto;
   width: 200px;
@@ -193,10 +193,10 @@ div#free-imgf3{
   /*padding: 15px;*/
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-block-end: 20px;
 }
-#fo2:hover{
+[class*="fo-2"]:hover{
   background-color: rgb(235, 87, 18);
  /* width: 100px;*/
 }
@@ -237,17 +237,4 @@ img[id^="background"]{
   position: fixed;
   bottom:20px;
   right:20px;
-}
-
-div#chatP{
-  background-color: aqua;
-  margin: 0px;
-  padding: 0px;
-}
-
-div#envmsg{
-  border: 1px rgb(14, 13, 13) solid;
-  margin: 0px;
-  padding: 0px;
-  background-color: orange;
 }

@@ -32,9 +32,35 @@ section#editorial figure,
 section#editorial a {
 	display: none;
 }
+[class*="format-sm-"] {
+    text-align: center;
+     background-color: rgb(143, 132, 132);
+    /*border: 1px solid rgb(248, 244, 3);*/
+    /*justify-content:center;*/
+}
+[class*="formatSm-"] {
+    text-align: center;
+    background-color: rgba(236, 84, 13, 0.356);
+    border: 1px solid rgb(205, 205, 214);
+    /*justify-content:center;*/
+}
+[class*="col-sm-"] {
+    /*float: left;*/
+    padding: 0.2%;
+    margin: 0 auto;
+    border: 1px solid rgb(170, 168, 168);
+    /*text-align: center;*/
+    /*background-color: rgb(212, 194, 88);*/
+    justify-content: center;
+    /*align-items: center;*/
+    
+}
 
+[class*="fondoColor-sm-"] {
+    text-align: left;
+    background-color: rgba(247, 70, 0, 0.205);
 
-
+}
 img {
 	width: 100%;
 }

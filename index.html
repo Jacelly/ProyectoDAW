@@ -34,10 +34,10 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" <a href="Cliente/login.html">Iniciar Sesion</a>
+                <a class="nav-link" href="#">Iniciar Sesion</a>
               </li>	
               <li class="nav-item">
-                <a class="nav-link" <a href="Cliente/Registrar.html">Registrarse</a>
+                <a class="nav-link" href="#">Registrarse</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Ayuda</a>
@@ -84,7 +84,7 @@
     <div id="general">
       <div id="free-image1"> </div>
       <div id="letra">
-        <p> Todo lo que necesitas para tu smartphone: micas,auriculares,protectores.....!Producto 3B (bueno,bonito y barato)!</p>
+        <p> Todo lo que necesitas para tu smartphone: micas,auriculares,protectores.!Producto 3B (bueno,bonito y barato)!</p>
       </div>  
     </div>
     <div id="categorias">
@@ -234,50 +234,6 @@
     <h5>Copyright © 2006-2018 Detodo</h5>   
     <span class="ir-arriba icon-circle-up"></span> 
   </footer>
-    <div id="chatP" class="col-xl-3">
-    <div id="chat" class="col-xl-12">
-    </div>
-    <div id="envmsg" class="col-xl-12">
-      <input type="text" id="message">
-      <button id="enviar">Enviar</button>
-    </div>
-  </div>
-
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-
-  <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
-  <script>
-    // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyD4262QnfXVL5r9-UkEV-tuXTC7R_ukU1c",
-      authDomain: "dawfiec.firebaseapp.com",
-      databaseURL: "https://dawfiec.firebaseio.com",
-      projectId: "dawfiec",
-      storageBucket: "dawfiec.appspot.com",
-      messagingSenderId: "665299585345"
-    };
-    firebase.initializeApp(config);
-  </script>
-
-  <script>
-    var db = firebase.database();  
-    $(document).ready(function(){
-      db.ref('mensajes').on('child_added', function(data){
-        $('#chat').append('<p>'+data.val().mensaje+'</p><br>');
-      });
-    });
-  
-    $('#enviar').on('click', function(){
-      var mensaje = $('#message').val();
-      db.ref('mensajes').push({
-          mensaje: mensaje
-      });
-      $('$#message').val('');
-    });
-  </script>
 </body>
 
 </html>
