@@ -20,43 +20,43 @@
     <link href="../css/Registrar.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <div class="login-box">
+    <div id="login-box">
       <img src="../images/login.png" class="avatar">
         <h2>Registrese aqui</h2>
         <form>
-          <div class="inputBox">
-            <input type="text" name="username" required>
+          <div id="inputBox">
             <label>Nombre de Usuario</label>
+            <input type="text" name="username" required>
           </div>
-          <div class="inputBox">
-            <input type="email" name="email" required>
+          <div id="inputBox">
             <label>E-mail</label>
+            <input type="email" name="email" required>
           </div>
-          <div class="inputBox">
-            <input type="text" name="password" required>
+          <div id="inputBox">
             <label>Contraseña</label>
+            <input type="password" name="password" required>
           </div>
-          <div class="inputBox">
-            <input type="text" name="password"  required>
+          <div id="inputBox">
             <label>Validar Contraseña</label>
+            <input type="password" name="password"  required>
           </div>
-          <div class="inputBox">
-            <input type="date" name="bday" required>
+          <div id="inputBox">
             <label >Fecha de nacimiento</label>
+            <input type="date" name="bday" required>
           </div>
-          <div class="Box">
+          <div id="Box">
+            <label for="female">Hombre</label>
             <input type="radio" name="gender" id="male"
      name="contact" value="male" checked>
-            <label for="female">Hombre</label>
+            <label for="female">Mujer</label>
             <input type="radio" name="gender" id="female"
      name="contact" value="female">
-            <label for="female">Mujer</label>
+            <label for="otro">Otro</label>
             <input type="radio" name="gender" id="otro"
      name="contact" value="otro">
-            <label for="otro">Otro</label>
           </div>
           <br><br><br>
-          <div class="Box">
+          <div id="Box">
             <input type="checkbox" name="contrato" id="acepto" value="acepto">
             <label for="acepto">He leido el contrato y estoy de acuerdo...</label>
           </div>

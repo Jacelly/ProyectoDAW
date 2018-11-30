@@ -5,10 +5,6 @@
 	<meta charset="utf-8">
     <title>Detodo</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	
@@ -20,22 +16,36 @@
     <link href="../css/login.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <div class="login-box">
+    <div id="login-box" class="container">
       <img src="../images/login.png" class="avatar">
         <h2>Ingresa aqui</h2>
         <form>
-          <div class="inputBox">
-            <input type="text" name="username" placeholder="Ingresa nombre de usuario">
+          <div id="inputBox" class="row">
             <label>Nombre de Usuario</label>
+            <input id='username' type="text" name="username" placeholder="Ingresa nombre de usuario">
           </div>
-          <div class="inputBox">
-            <input type="text" name="password" placeholder="Ingresa la contraseña">
+          <div id="inputBox" class="row">
             <label>Contraseña</label>
+            <input id="myInput" type="password" name="password" placeholder="Ingresa la contraseña">
           </div>
-          <input type="submit" name="submit" value="login">
+          <div id="inputBox" class="row">
+            <div class="col-3">
+              <input type="checkbox" onclick="myFunction()">
+            </div>
+            <div id="showlabel" class="col-9">
+              <label>Show Password</label>
+            </div>
+
+          </div>
+          <input id="submit-btn" type="submit" name="submit" value="login" >
           <a href="#">Olvidaste la contraseña</a>
         </form>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script type="text/javascript" src="../Js/login.js"></script>
+    
 </body>
 
 </html>
