@@ -1,24 +1,45 @@
-function load_and_compare_Json(user,password) {
-
-   $.getJSON( "base_datos/user.json", function( data ) {
-    
-      $.each( data, function( key, val ) {
-        //addNew(val.titulo, val.descripcion)
-
-        if((val.usuario == user) & (val.password == password)){
-               alert('login succefull');
-            } else {
-               alert('Error en usuario o contraseña')
-            };
-      });
-    
-  });
+function myFunction() {
+    var x = document.getElementById("myInput");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
 }
 $(document).ready(function(){
     $('#submit-btn').click(function(){
-        var username = $('#username').val();
-        var password = $('#myInput').val();
+        var username = $('input#username').val();
+        var password = $('input#myInput').val();
         var error =false;
+        //alert(username);
+        $.getJSON("../base_datos/user.json", function(result){
+                $.each(result, function(i, field){
+                    alert(field.usuario);
+                    if( username == field.usuario && password == field.password){
+                        alert("Login success");
+                        error=true;
+                    }
+                    if(error == false){
+                        alert("ops, error user or password");
+                    }
+                });
+            });
+        /*$.getJSON("../base_datos/user.json", function( data ) {
+    
+            $.each( data, function( key, val ) {
+            //addNew(val.titulo, val.descripcion)
+                alert(val+" ";
+            if( username == val.usuario && password == value.password){
+                        alert("Login success");
+                        error=true;
+                    }
+                    if(error == false){
+                        alert("ops, error user or password");
+            }
+                });
+    
+            });*/
+        /*
         alert(username);
         $.ajax({type: "POST",
                 url: "base_datos/user.json",
@@ -35,6 +56,6 @@ $(document).ready(function(){
                         return false;
                     }  
                 });
-        }});
+        }});*/
     });
 });
