@@ -53,16 +53,20 @@ function addNew(titulo, vendido, precio) {
 
 
 function loadNewsJson() {
+  var accesorio = $('#pag').text();
+  console.log(accesorio);
    $.getJSON( "../base_datos/inventario.json", function( data ) {
     
       $.each( data, function( key, val ) {
         //addNew(val.titulo, val.descripcion)
         $.each(val, function(key,val){
           //addNew(valor.titulo, valor.descripcion)
-          $.each(val, function(key,valor){
-            addNew(valor.titulo, valor.vendidos, valor.Precio);
-            console.log(valor);
-          });
+          if(key == accesorio){
+            $.each(val, function(key,valor){
+              addNew(valor.titulo, valor.vendidos, valor.Precio);
+            });
+          }
+          
         });
       });
     
