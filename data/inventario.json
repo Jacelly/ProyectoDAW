@@ -1,0 +1,140 @@
+[
+  {
+    "Estuches": [
+      {
+        "titulo": "Estuche Sony",
+        "Precio": 20,
+        "vendidos": 10,
+        "Stock": 90
+      }
+    ],
+    "Baterias": [
+      {
+        "titulo": "Bateria Samsung",
+        "Precio": 20,
+        "vendidos": 10,
+        "Stock": 90
+      }
+    ],
+    "Cables": [
+      {
+        "titulo": "Cables Samsung",
+        "Precio": 20,
+        "vendidos": 10,
+        "Stock": 90
+      }
+    ],
+    "Cargadores": [
+      {
+        "titulo": "Cargador Samsung",
+        "Precio": 20,
+        "vendidos": 10,
+        "Stock": 90
+      }
+    ],
+    "Estuches": [
+      {
+        "titulo": "Bateria Samsung",
+        "Precio": 20,
+        "vendidos": 10,
+        "Stock": 90
+      }
+    ],
+    "Memorias": [
+      {
+        "titulo": "Estuche Sony",
+        "Precio": 20,
+        "vendidos": 10,
+        "Stock": 90
+      }
+    ],
+    "Powerbanks": [
+      {
+        "titulo": "Powerbanks Sony",
+        "Precio": 20,
+        "vendidos": 10,
+        "Stock": 90
+      }
+    ],
+    "Micas": [
+      {
+        "titulo": "Micas Sony",
+        "Precio": 20,
+        "vendidos": 10,
+        "Stock": 90
+      }
+    ],
+    "Monopod": [
+      {
+        "titulo": "Monopod Sony",
+        "Precio": 20,
+        "vendidos": 10,
+        "Stock": 90
+      }
+    ],
+    "Pop sockets": [
+      {
+        "titulo": "Pop sockets Sony",
+        "Precio": 20,
+        "vendidos": 10,
+        "Stock": 90
+      }
+    ],
+    "Audifonos":[
+      {
+        "titulo": "Audifonos I7s Tws Bluetooth Manos Libres Con Base De Carga",
+        "Precio": 20,
+        "vendidos": 10,
+        "Stock": 90
+      },
+      {
+        "titulo": "Mini Auricular Audífono Bluetooth Llamadas Música Espia",
+        "Precio": 10,
+        "vendidos": 20,
+        "Stock": 80
+      },
+      {
+        "titulo": "Audifono Samsung",
+        "Precio": 20,
+        "vendidos": 10,
+        "Stock": 90
+      },
+      {
+        "titulo": "Manos Libres Bluetooth Airpods Recargables Universales",
+        "Precio": 16,
+        "vendidos": 7,
+        "Stock": 93
+      },
+      {
+        "titulo": "Audífono Sony Con Cable",
+        "Precio": 12,
+        "vendidos": 20,
+        "Stock": 80
+      },
+      {
+        "titulo": "Audifonos para iPhone 7",
+        "Precio": 19,
+        "vendidos": 25,
+        "Stock": 75
+      },
+      {
+        "titulo": "Audifonos Bluetooth Coello Manos Libres Samsung Sony Iphone",
+        "Precio": 7,
+        "vendidos": 9,
+        "Stock": 91
+      },      
+      {
+        "titulo": "Audifonos Samsung Bluetooth Manos Libres Llamadas Musica Hd",
+        "Precio": 12,
+        "vendidos": 45,
+        "Stock": 55
+      },
+      {
+        "titulo": "Audifonos Apple Earpods Originales Iphone 4/5/5s/6/6s",
+        "Precio": 18,
+        "vendidos": 39,
+        "Stock": 61
+      }
+    ]
+  }
+]
